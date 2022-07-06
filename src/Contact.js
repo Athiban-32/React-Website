@@ -18,7 +18,7 @@ class Contact extends React.Component{
     validateForm=event => {
         var subject=document.getElementById("subject").value;
         var body=document.getElementById("body").value;
-        window.location.href="xcodeemulators@gmail.com"
+        window.location.href="xcodeemulators@gmail.com";
         event.preventDefault();
         return false;
     };
